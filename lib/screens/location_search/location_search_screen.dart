@@ -103,7 +103,6 @@ class _LocationsSearchScreenState extends State<LocationsSearchScreen> {
                           itemBuilder: (BuildContext context, int index) {
                             return LocationTile(
                               location: state.locations[index],
-                              textEditingController: _textEditingController,
                             );
                           },
                         );
