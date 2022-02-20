@@ -25,12 +25,13 @@ class _LocationsSearchScreenState extends State<LocationsSearchScreen> {
     return SafeArea(
       child: Scaffold(
         body: DecoratedBox(
-          decoration: const BoxDecoration(
-            image: DecorationImage(
+          decoration: BoxDecoration(
+            image: const DecorationImage(
               fit: BoxFit.cover,
               image: AssetImage(Constants.bkgImage),
-              opacity: 0.4,
+              opacity: 0.8,
             ),
+            color: themeData.primaryColorLight,
           ),
           child: Column(
             children: [
