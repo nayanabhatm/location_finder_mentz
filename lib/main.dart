@@ -40,7 +40,7 @@ class LocationsFinderApp extends StatelessWidget {
           bodyText1: TextStyle(
             fontSize: 16.0,
             fontStyle: FontStyle.normal,
-            fontWeight: FontWeight.w400,
+            fontWeight: FontWeight.w500,
             color: Color(Styles.black),
           ),
           bodyText2: TextStyle(

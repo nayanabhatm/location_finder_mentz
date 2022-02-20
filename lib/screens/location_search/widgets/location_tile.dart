@@ -24,8 +24,15 @@ class LocationTile extends StatelessWidget {
         subtitle: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(location.type),
-            Text(location.placeName),
+            Text(
+              location.type,
+              style: themeData.textTheme.bodyText2!
+                  .copyWith(color: themeData.primaryColorDark),
+            ),
+            Text(
+              location.placeName,
+              style: themeData.textTheme.bodyText2,
+            ),
           ],
         ),
         leading: FaIcon(

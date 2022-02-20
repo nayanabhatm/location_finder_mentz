@@ -29,7 +29,7 @@ class _LocationsSearchScreenState extends State<LocationsSearchScreen> {
             image: DecorationImage(
               fit: BoxFit.cover,
               image: AssetImage(Constants.bkgImage),
-              opacity: 0.7,
+              opacity: 0.4,
             ),
           ),
           child: Column(
